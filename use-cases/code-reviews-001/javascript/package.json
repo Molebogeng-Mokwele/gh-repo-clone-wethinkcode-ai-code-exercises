@@ -1,0 +1,26 @@
+{
+  "name": "code-reviews-user-auth",
+  "version": "1.0.0",
+  "description": "User authentication utility for code reviews exercise",
+  "main": "src/user_auth.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "author": "WTC",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.js"
+    ]
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
